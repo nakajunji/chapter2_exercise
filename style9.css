@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: line-box;
+	box-sizing: border-box;
 }
 .clearfix::after {
 	content: "";
@@ -20,12 +20,42 @@ main {
 .content {
 	width: 300px;
 	background-color: #eeeeee;
-	padding: 10px;
 	float: left;
 	margin-right: 30px;
+	padding: 10px;
+	position: relative;
 }
 .content:last-child {
 	margin-right: 0;
+}
+.picture1 {
+	height: 150px;
+	background-image: url("img9/flow01.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.picture2 {
+	height: 150px;
+	background-image: url("img9/flow02.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.picture3 {
+	height: 150px;
+	background-image: url("img9/flow03.png");
+	background-size: cover;
+	background-position: bottom;
+}
+.step {
+	background-color: #ff9a4b;
+	color: white;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.title {
+	padding: 15px 0 5px 0;
 }
 footer {
 	background-color: #aaaaaa;
